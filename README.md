@@ -1,5 +1,7 @@
 # CypherpunksCryptoPayServer
-Ferramenta para gerenciar e receber pagamentos do repo de chaves PGP
+Ferramenta para gerenciar e receber pagamentos do repo de chaves PGP do cypherpunks.com.br
+
+Em desenvolvimento!
 
 ## TODO:
 - [ ] Formulário de entrada do usuário
