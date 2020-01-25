@@ -8,16 +8,7 @@ PRICE = 0.0001 # preço em BTC por chave publicada
 class BtcTransactionProcessor(object):
     @staticmethod
     def is_payment_received(addr):
-        # A day has 86400 seconds
-        MAX = 86400
-        count= 0
-        while self.balance(addr) <= PRICE:
-            time.sleep(3)
-            count+=3
-            if count >= MAX:
-                return False
-        else:
-            return True
+        return balance(addr) <= PRICE
     
     @staticmethod
     def gen_wallet():

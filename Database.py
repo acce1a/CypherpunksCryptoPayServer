@@ -26,6 +26,9 @@ class Database(Object):
         
         return True
     
+    def get_unpaid_users(self):
+        return self.db.search(self.user.paid == False)
+    
     def get(self, arg, var):
         assert(arg is in ['name','pgp_key','fingerprint'], "Arg {} don't exists".format(arg))
 
