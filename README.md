@@ -9,3 +9,4 @@ Em desenvolvimento!
 - [ ] Publicar as chaves automaticamente a patir do banco de dados
 - [x] Melhorar o desempenho (Thread Problem)
 - [ ] Escrever uma documentação melhor... :/
+- [ ] Implementar derivação de chaves de Bitcoin para gerar vários endereços a partir de uma chave privada
